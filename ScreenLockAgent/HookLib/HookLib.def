@@ -1,0 +1,7 @@
+LIBRARY	HookLib
+SECTIONS
+	.HKT   Read Write Shared
+EXPORTS
+	GetDLLInstance		@2
+	SetLockHook			@3
+	RemoveLockHook		@4
